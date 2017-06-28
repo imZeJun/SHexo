@@ -71,4 +71,3 @@ deploy:
   type: git
   repo: git@github.com:imZeJun/imzejun.github.io.git
   branch: master
-  
