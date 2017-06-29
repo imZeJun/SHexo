@@ -48,6 +48,7 @@ menu:
   categories: /categories/
   #about: /about/
   archives: /archives/
+  friend: /friend/ 
   #tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
@@ -69,6 +70,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  friend: user
 
 
 
@@ -187,8 +189,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -239,7 +241,7 @@ excerpt_description: true
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: true
-  length: 500
+  length: 150
 
 # Post meta display settings
 post_meta:
@@ -323,7 +325,7 @@ disqus:
 #hypercomments_id:
 
 # Gentie productKey
-#gentie_productKey:
+gentie_productKey: b50a597e2fb84d35a6766074670f1d15
 
 # changyan
 changyan:
@@ -451,7 +453,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page

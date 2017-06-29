@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: zeMao's Blog
-subtitle:
-description:
-author: zeMao
+title: 泽毛的博客
+subtitle: 但愿每次回忆，对生活都不感到负疚
+description: 
+author: 泽毛
 language: zh-Hans
 timezone:
 
@@ -25,7 +25,9 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
+  - README.md
+  - baidu_verify_CsvlyanfDQ.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -71,3 +73,10 @@ deploy:
   type: git
   repo: git@github.com:imZeJun/imzejun.github.io.git
   branch: master
+
+algolia:
+ appId: 'RKC321K1A4'
+ apiKey: 'bd2f9b0f6cf360a4093517d22678efec'
+ adminApiKey: '95c16641f15f3bb8f120bb1676fc2536'
+ indexName: 'Blog'
+ chunkSize: 5000
